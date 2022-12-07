@@ -7,7 +7,31 @@ h1 {
     color: rgb(170, 164, 164);
 }
 
+h2 {
+    margin: 0 0 10px 0;
+}
+
 #koelkast {
     background-color: #FFFF;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#boodschappen > button {
+    padding: 10px 20px;
+    
+    font-size: 18px;
+    border: solid black;
+    border-width: 2px;
+    background: rgb(122, 122, 122);
+    color: white;
+}
+
+section {
+    border: solid #000;
+    border-width: 2px;
+    padding: 20px;
+    min-height: 200px;
 }
